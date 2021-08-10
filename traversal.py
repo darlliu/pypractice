@@ -20,7 +20,7 @@ tt.left.left.make_left(6)
 tt.make_right(7).make_left(8).make_right(9)
 
 
-def dfs(tree: Tree):
+def dfs(tree: Tree) -> None:
     # traverse and print all elements
     to_traverse = [tree]
     while to_traverse:
